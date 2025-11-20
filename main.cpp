@@ -57,8 +57,8 @@ const string ERROR_CANT_FIND_FILE="Error: the input file cannot be opened";
 
 using products_list = vector<Product>;
 using Store = map<string, products_list>;
-using Chains = map<string, map<string, vector<Product>>>;
-
+//using Chains = map<string, map<string, vector<Product>>>;
+using Chains = map<string, Store>;
 
 //Functions for file reading
 
